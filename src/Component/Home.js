@@ -48,7 +48,7 @@ const Home = () => {
     } else {
       console.log("data added succesfully");
 
-      localStorage.setItem("useryoutube", JSON.stringify([...data, inpval]));
+      localStorage.setItem("userkuldeep", JSON.stringify([...data, inpval]));
     }
   };
 
